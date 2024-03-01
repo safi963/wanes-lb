@@ -8,7 +8,7 @@ pipeline {
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/safi963/wanes-lb.git'  //do change this
         
-        KUBECONFIG = credentials('roseaw-225')  //do change this
+        KUBECONFIG = credentials('wanes-225')  //do change this
     }
 
     stages {
